@@ -1,5 +1,8 @@
 .header {
    border-bottom: 1px solid #ececec;
+   max-width: 1600px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .container-h {
@@ -36,10 +39,10 @@
    list-style: none;
    padding: 0;
    margin: 0;
-   display: flex;
+   display: inline-flex;
    justify-content: space-between;
    gap: 50px;
-   margin-right: 342px;
+   margin-right: 296px;
 }
 
 .menu-link {
@@ -58,7 +61,7 @@
    color: var(--hover-focus-color);
 }
 
-.menu-link.current {
+.menu-link:current {
    color: var(--accent-color);
 }
 
@@ -73,18 +76,23 @@
    padding-bottom: 32px;
 }
 
+.icon {
+   fill: currentColor;
+}
 .contact-header {
    color: var(--secondary-font-color);
    font-weight: 500;
    font-size: 14px;
    text-decoration: none;
    line-height: 1.4;
+   color: var(--svg-color);
+   background-color: var(--main-light);
+   display: flex;
+   align-items: center;
+   gap: 10px;
 }
 
-.contact-header:hover {
-   color: var(--hover-focus-color);
-}
-
+.contact-header:hover,
 .contact-header:focus {
    color: var(--hover-focus-color);
 }
