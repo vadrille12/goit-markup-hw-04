@@ -2,22 +2,17 @@
    width: 1200px;
    margin-right: auto;
    margin-left: auto;
-   width: 1170px;
    padding-left: 15px;
    padding-right: 15px;
    margin-bottom: 0;
    display: flex;
-   gap: 70px;
+   
 }
 
 .footer {
    background-color: var(--dark-bg-color);
    padding-top: 60px;
    padding-bottom: 60px;
-   max-width: 1600px;
-   margin-left: auto;
-   margin-right: auto;
-   display: flex;
 }
 
 .logo-footer {
@@ -96,9 +91,6 @@
    line-height: calc(16 / 14);
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   
-   margin: 0;
-   margin-top: 12px;
 }
 
 .joinus {
@@ -134,4 +126,11 @@
 
 .social-icon-footer {
    fill: currentColor;
+}
+
+.div-wrapper {
+
+   display: flex;
+   align-items: baseline;
+   gap: 70px;
 }

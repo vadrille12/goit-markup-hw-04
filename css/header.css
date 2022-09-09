@@ -1,8 +1,5 @@
 .header {
    border-bottom: 1px solid #ececec;
-   max-width: 1600px;
-   margin-left: auto;
-   margin-right: auto;
 }
 
 .container-h {
@@ -10,10 +7,8 @@
    width: 1200px;
    margin-right: auto;
    margin-left: auto;
-   width: 1170px;
    padding-left: 15px;
    padding-right: 15px;
-
    margin-bottom: 0;
    align-items: center;
 }
@@ -42,7 +37,7 @@
    display: inline-flex;
    justify-content: space-between;
    gap: 50px;
-   margin-right: 296px;
+   margin-right: 316px;
 }
 
 .menu-link {
@@ -61,19 +56,17 @@
    color: var(--hover-focus-color);
 }
 
-.menu-link:current {
-   color: var(--accent-color);
+.menu-link.current {
+   color: var(--hover-focus-color);
 }
 
 .contact-menu {
    list-style: none;
    display: flex;
    justify-content: space-between;
-   gap: 50px;
+   gap: 30px;
    padding: 0;
    margin: 0;
-   padding-top: 32px;
-   padding-bottom: 32px;
 }
 
 .icon {
@@ -85,7 +78,8 @@
    font-size: 14px;
    text-decoration: none;
    line-height: 1.4;
-   color: var(--svg-color);
+   padding-top: 32px;
+   padding-bottom: 32px;
    background-color: var(--main-light);
    display: flex;
    align-items: center;
